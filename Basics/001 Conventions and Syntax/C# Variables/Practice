@@ -6,6 +6,7 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
+        // add words to say your name or age so it can write it out
       string name = "Cameron";
       String Age = "19";
       Console.WriteLine(name);  
@@ -20,6 +21,7 @@ namespace MyApplication
 {
   class Program
   {
+    // makes it so you can reffer to the my num in the writing Line
     static void Main(string[] args)
     {
       int myNum = 1500;
@@ -36,6 +38,7 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
+         // makes it so you can reffer to the code in a differnt spot
       int myNum;
       myNum = 1500;
       Console.WriteLine(myNum);
@@ -48,6 +51,7 @@ namespace MyApplication
 {
   class Program
   {
+    // overwrite the code to int myNum
     static void Main(string[] args)
     {
       int myNum = 15;
