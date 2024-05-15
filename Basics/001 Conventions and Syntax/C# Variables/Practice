@@ -1,0 +1,58 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Cameron";
+      String Age = "19";
+      Console.WriteLine(name);  
+      Console.WriteLine(Age);
+     }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 1500;
+      Console.WriteLine(myNum);
+     }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum;
+      myNum = 1500;
+      Console.WriteLine(myNum);
+     }
+  }
+}
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 15;
+      myNum = 1500;
+      Console.WriteLine(myNum);
+    }
+  }
+}
