@@ -11,6 +11,7 @@ using System;
 					
 public class Program
 {
+
  public Health PresidentsHealth;
  public Damage Bullet;
 	
@@ -21,17 +22,21 @@ public class Program
 
         
 		Health.PresidentsHealth -= Damage.Bullet;
+		//this is for the program to write it out in the display
 		Console.WriteLine("Hello Wor... IM ALIVE");
         Console.WriteLine("GET DOWN MR PRESIDENT!!!");
         Console.WriteLine("BANG!!!");
+		// adding some code to the WriteLine
         Console.WriteLine("Health.Name + " WARNING HEALTH HALF WAY!!! " + Health.PresidentsHealth + ".");
 
 	}
 public class Health { 
+	// this is the health of the president 
 	public int PresidentsHealth = 50;
     public string Name = "President";
 }
 public class Damage { 
+	// this is the damage i could add to the presidents health
 	public int Bullet = 25;
 }
 
