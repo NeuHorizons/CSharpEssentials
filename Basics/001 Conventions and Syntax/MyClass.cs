@@ -8,36 +8,35 @@
 //Using the new keyword create several objects
 //Console writeline the Objects variables
 using System;
-					
+
 public class Program
 {
+    public Health PresidentsHealth;
+    public Damage Bullet;
 
- public Health PresidentsHealth;
- public Damage Bullet;
-	
-	public void Main()
-	{
+    public void Main()
+    {
         PresidentsHealth = new Health();
-		Bullet = new Damage();
+        Bullet = new Damage();
 
+        PresidentsHealth.PresidentsHealth -= Bullet.Bullet;
         
-		Health.PresidentsHealth -= Damage.Bullet;
-		//this is for the program to write it out in the display
-		Console.WriteLine("Hello Wor... IM ALIVE");
+        Console.WriteLine("Hello Wor... IM ALIVE");
         Console.WriteLine("GET DOWN MR PRESIDENT!!!");
         Console.WriteLine("BANG!!!");
-		// adding some code to the WriteLine
-        Console.WriteLine("Health.Name + " WARNING HEALTH HALF WAY!!! " + Health.PresidentsHealth + ".");
+        Console.WriteLine("{PresidentsHealth.Name} WARNING HEALTH HALF WAY!!! {PresidentsHealth.PresidentsHealth}.");
+    }
 
-	}
-public class Health { 
-	// this is the health of the president 
-	public int PresidentsHealth = 50;
-    public string Name = "President";
-}
-public class Damage { 
-	// this is the damage i could add to the presidents health
-	public int Bullet = 25;
-}
+    public class Health
+    {
+        // This is the health of the president
+        public int PresidentsHealth = 50;
+        public string Name = "President";
+    }
 
+    public class Damage
+    {
+        // This is the damage to the president's health
+        public int Bullet = 25;
+    }
 }
